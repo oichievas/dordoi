@@ -1,14 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="fonts/Roboto/stylesheet.css" />
     <link rel="stylesheet" href="fonts/mosterrat/stylesheet.css" />
     <link rel="stylesheet" href="css/style.css" />
+
+    <script src="https://kit.fontawesome.com/a5b726700f.js" crossorigin="anonymous"></script>
+
     <title>Dordoi 2</title>
+
   </head>
   <body>
     <header>
@@ -16,22 +22,23 @@
       <div class="number_social">
         <div class="container">
           <div class="row">
-            <div class="col number_size d-flex">
-              <a href=""><img src="img/location.png" alt="">ул.Ленина 232а</a>
-              <a href="tel:+996999599980"><img src="img/phone.png" alt="">+996 999 599 980</a>
+            <div class="col-12 col-lg-6 col-md-6 number_size d-flex">
+                
+                <a href="#" style="margin-right: 20px">
+                    <i class="fas fa-map-marker-alt"></i> ул.Ленина 232а 
+                </a>
+                <a href="tel:+996999599980">
+                    <i class="fas fa-phone-square-alt"></i> +996 999 599 980
+                </a>
               
               </div>
-            <div class="col number_size">
+            <div class="col-12 col-lg-6 col-md-6 number_size">
               <div class="row">
                 <div class="col fb_vk_ig d-flex justify-content-end">
-                  <a href="#">ENG</a>
-                  <a class="rus" href="#">РУС</a>
-                  <a href="#"
-                    ><img src="img/fb.png" alt=""></a>
-                  <a href="#" class="vk"><img src="img/vk.png" alt=""></a>
-                  <a href="#"><img src="img/instagram.png" alt=""></a>
-                  <a href="">
-                  <img src="img/telegram.png" alt=""></a>
+                  <a href="#"><i class="fab fa-facebook" ></i></a>
+                  <a href="#"><i class="fab fa-instagram" ></i></a>
+                  <a href="#"><i class="fab fa-telegram" ></i></a>
+                  <a href=""><i class="fab fa-whatsapp" ></i></a>
                 </div>
               </div>
             </div>
@@ -64,97 +71,27 @@
                   >
                 </li>
                 <li class="nav-item dropdown">
-                  <a
-                    class="nav-link dropdown-toggle"
-                    href="category.html"
-                    id="navbarDropdown"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    Мужское
-                  </a>
+                  <a class="nav-link dropdown-toggle"href="category.html"id="navbarDropdown"
+                  role="button"data-bs-toggle="dropdown"aria-expanded="false">Категории</a>
                   <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li class=""><a class="dropdown-item" href="#">Action</a></li>
-                    <li class="">
-                      <a class="dropdown-item" href="#">Another action</a>
-                    </li>
-                    <li class="">
-                      <a class="dropdown-item" href="#">Something else here</a>
-                    </li>
+                    <li class=""><a class="dropdown-item" href="#">Женская одежда</a></li>
+                    <li class=""><a class="dropdown-item" href="#">Мужская одежда</a></li>
+                    <li class=""><a class="dropdown-item" href="#">Детская одежда</a></li>
+                    <li class=""><a class="dropdown-item" href="#">Мусульманская одежда</a></li>
+                    <li class=""><a class="dropdown-item" href="#">Обувь</a></li>
+                    <li class=""><a class="dropdown-item" href="#">Косметика</a></li>
+                    <li class=""><a class="dropdown-item" href="#">Аксессуары</a></li>
+                    <li class=""><a class="dropdown-item" href="#">Все для дома</a></li>
+                    <li class=""><a class="dropdown-item" href="#">Ткани</a></li>
+                    <li class=""><a class="dropdown-item" href="#">Носочно- чулочные изделия</a></li>
                   </ul>
                 </li>
-                <li class="nav-item dropdown">
-                  <a
-                    class="nav-link dropdown-toggle"
-                    href="category.html"
-                    id="navbarDropdown"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    Женское
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li class="">
-                      <a class="dropdown-item" href="#">Action</a>
-                    </li>
-                    <li class="">
-                      <a class="dropdown-item" href="#">Another action</a>
-                    </li>
-                    <li class="">
-                      <a class="dropdown-item" href="#">Something else here</a>
-                    </li>
-                  </ul>
-                </li>
-                <li class="nav-item dropdown">
-                  <a
-                    class="nav-link dropdown-toggle"
-                    href="category.html"
-                    id="navbarDropdown"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    Детское
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li class="">
-                      <a class="dropdown-item" href="#">Action</a></li>
-                    <li class="">
-                      <a class="dropdown-item" href="#">Another action</a>
-                    </li>
-                    <li class="">
-                      <a class="dropdown-item" href="#">Something else here</a>
-                    </li>
-                  </ul>
-                </li>
+                <li class="nav-item dropdown"><a class="nav-link">Наши услуги</a></li>
+                <li class="nav-item dropdown"><a class="nav-link" href="category.html">О нас</a></li>
                 <li class="nav-item pe-4 right_padding">
                   <a class="nav-link" href="#">Контакты</a>
                 </li>
               </ul>
-              <!-- <form class="d-flex">
-                <input
-                  class="form-control me-2 search_input"
-                  type="search"
-                  placeholder="Поиск"
-                  aria-label="Search"
-                />
-                <button class="btn search_button" type="submit">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="16"
-                    fill="currentColor"
-                    class="bi bi-search"
-                    viewBox="0 0 16 16"
-                  >
-                    <path
-                      d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
-                    />
-                  </svg>
-                </button>
-              </form> -->
             </div>
           </div>
         </nav>

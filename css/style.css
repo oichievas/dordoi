@@ -23,7 +23,12 @@ body {
   line-height: 24px;
   color: #fff;
 }
-
+.number_social a:hover{
+  color: #ddd;
+}
+.number_size {
+    font-size: 20px;
+  }
 .rus {
   margin-left: 20px;
   padding: 0px 20px;
