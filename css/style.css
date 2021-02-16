@@ -400,10 +400,10 @@ footer {
 /* ---------CATEGORY-------------- */
 
 .category {
-  padding: 60px 0px;
+  padding-top: 60px;
 }
-
-.category .col-md-4 {
+.j_cat_center{
+  justify-content: center;
   padding: 5px;
 }
 
