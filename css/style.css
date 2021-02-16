@@ -397,6 +397,25 @@ footer {
   margin-bottom: 70px;
 }
 
+
+/*Product Card Start*/
+.font_mosterrat {
+  font-family: "Montserrat";
+  font-size: 0.8rem;
+}
+.price {
+  font-size: 1.4rem !important;
+  color: tomato !important;
+  font-weight: 500 !important;
+}
+/*Product Card End*/
+/* Carousel */
+.carousel .carousel-item {
+  font-size: 19px !important;
+}
+.carousel .carousel-item {
+  font-size: 0.9rem;
+}
 /* ---------CATEGORY-------------- */
 
 .category {
