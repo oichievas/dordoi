@@ -872,6 +872,48 @@ footer {
   color: rgba(32, 41, 28, .8);
 }
 
-
-
 /*Card*/
+
+
+
+/*Scrool vverh*/
+.scroll-top.scroll-visible {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+.scroll-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 600;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all 0.8s ease-in-out;
+    transition: all 0.8s ease-in-out;
+    -webkit-transform: translate3d(0, 200%, 0);
+    -ms-transform: translate3d(0, 200%, 0);
+    transform: translate3d(0, 200%, 0);
+}
+.scroll-top a, .scroll-top a:visited {
+    font-size: 24px;
+    color: #EB9240;
+    background: #ffffff;
+    display: block;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 0.25rem;
+    -webkit-box-shadow: 0 10px 55px 5px rgb(137 173 255 / 15%);
+    -moz-box-shadow: 0 10px 55px 5px rgba(137, 173, 255, .15);
+    box-shadow: 0 10px 55px 5px rgb(137 173 255 / 15%);
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.fa-angle-up:before {
+    content: "\f106";
+}
+
