@@ -935,3 +935,8 @@ footer {
 .fa-angle-up:before {
     content: "\f106";
 }
+
+.shadow-lg {
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+    border-radius: 15px
+}
