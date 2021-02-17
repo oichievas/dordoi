@@ -25,6 +25,10 @@ ol {
 
 .navbar-nav .nav-item a {
   color: #050748 !important;
+  text-transform: uppercase;
+  /*font-family: "Montserrat";*/
+/*  font-weight: 500;*/
+  
 }
 
 .navbar-nav .nav-item a:hover {
@@ -305,6 +309,8 @@ h3 {
 .text_on_photo img {
   transition: 1s;
   display: block;
+  object-fit: cover;
+  height: 260px;
 }
 
 .text_on_photo img:hover {
@@ -312,16 +318,33 @@ h3 {
 }
 
 .text_on_photo h6 {
-  font-family: "Montserrat";
+ /* font-family: "Montserrat";*/
   font-style: normal;
   font-weight: 500;
   line-height: 20px;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.1em;
   color: #ffffff;
   position: absolute;
   bottom: 5%;
   transform: translateX(-50%);
   left: 50%;
+  border-radius: 5px;
+  background: #000;
+}
+
+@media screen and (max-width: 540px) {
+  .text_on_photo img {
+      object-fit: cover;
+      height: 120px;
+    }
+    .text_on_photo h6 {
+        font-size: 0.6rem
+    }
+    .cat_cat>.col-4{
+        padding-right: 2px;
+        padding-left: 2px
+    }
+
 }
 
 
