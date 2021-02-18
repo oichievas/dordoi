@@ -313,13 +313,13 @@ h3 {
   font-weight: 500;
   line-height: 20px;
   letter-spacing: 0.1em;
-  color: #ffffff;
+  color: #ff9c07;
   position: absolute;
   bottom: 5%;
   transform: translateX(-50%);
   left: 50%;
   border-radius: 5px;
-  background: #000;
+  background: #fff;
   padding: 3px
 }
 
