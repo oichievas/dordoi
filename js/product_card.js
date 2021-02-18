@@ -41,12 +41,14 @@ $(document).ready(function () {
   });
 });
 
+
 jQuery(function ($) {
   $(window).scroll(function () {
     if ($(this).scrollTop() > 48) {
-      $(".navbar").addClass("fixed-top");
+      $("#navbar").addClass("fixed-top");
     } else if ($(this).scrollTop() < 48) {
-      $(".navbar").removeClass("fixed-top");
+      $("#navbar").removeClass("fixed-top");
     }
   });
 });
+
