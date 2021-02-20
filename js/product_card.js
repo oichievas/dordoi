@@ -9,15 +9,6 @@ $(document).ready(function () {
 
   $(".slider").css("background-position", "0px " + 190 + "px");
 
-  $("#nav_categories_dropdown_container").hover(
-    function (e) {
-      $("#nav_categories_dropdown_container").dropdown("show");
-    },
-    function (e) {
-      $("#nav_categories_dropdown_container").dropdown("hide");
-    },
-  );
-
   $("#nav_categories_link").on("click", function () {
     location.href = $(this).attr("href");
   });
@@ -41,8 +32,11 @@ $(document).ready(function () {
   });
 });
 
-
 jQuery(function ($) {
+  $("a.dropdown-item").on("click", function () {
+    location.href = $(this).attr("href");
+  });
+
   $(window).scroll(function () {
     if ($(this).scrollTop() > 48) {
       $("#navbar").addClass("fixed-top");
@@ -50,5 +44,48 @@ jQuery(function ($) {
       $("#navbar").removeClass("fixed-top");
     }
   });
+
+  if ($(window).width() < 992) {
+    $("#nav_categories_dropdown_container").hover(
+      function (e) {},
+      function (e) {},
+    );
+    $("#nav_categories_dropdown_container").on("click", function () {
+      $("#nav_categories_dropdown_container").dropdown("toggle");
+    });
+  } else {
+    $("#nav_categories_dropdown_container").hover(
+      function (e) {
+        $("#nav_categories_dropdown_container").dropdown("show");
+      },
+      function (e) {
+        $("#nav_categories_dropdown_container").dropdown("hide");
+      },
+    );
+    $("#nav_categories_dropdown_container").on("click", function () {});
+  }
+
+  $(window).on("resize", function (e) {
+    if ($(window).width() < 992) {
+      $("#nav_categories_dropdown_container").hover(
+        function (e) {},
+        function (e) {},
+      );
+      $("#nav_categories_dropdown_container").on("click", function () {
+        $("#nav_categories_dropdown_container").dropdown("toggle");
+      });
+    } else {
+      $("#nav_categories_dropdown_container").hover(
+        function (e) {
+          $("#nav_categories_dropdown_container").dropdown("show");
+        },
+        function (e) {
+          $("#nav_categories_dropdown_container").dropdown("hide");
+        },
+      );
+      $("#nav_categories_dropdown_container").on("click", function () {});
+    }
+  });
 });
 
+// rvrtbtrbtrbrtb
