@@ -7,8 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
     <link rel="stylesheet" href="css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="fonts/Roboto/stylesheet.css"/>
-    <link rel="stylesheet" href="fonts/mosterrat/stylesheet.css"/>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700|Open+Sans">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -16,7 +14,7 @@
 
     <script src="https://kit.fontawesome.com/a5b726700f.js" crossorigin="anonymous"></script>
 
-    <title>Easy Dordoy</title>
+    <title>EASY DORDOI - Товары оптом из Киргизии</title>
 
 </head>
 <body>
@@ -28,7 +26,7 @@
             <div class="row">
                 <div class="col-12 col-lg-6 col-md-6 number_size justify-content-center justify-content-md-start d-flex">
                     <a href="#" style="margin-right: 20px" target="_blank">
-                        <i class="fas fa-map-marker-alt"></i> г. Бишкек ул. какая-та 232а
+                        <i class="fas fa-map-marker-alt"></i> г. Бишкек Дордой
                     </a>
                     <a href="tel:+996999599980" target="_blank">
                         <i class="fas fa-phone-square-alt"></i> +996500-005-500
@@ -60,7 +58,7 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-white" id="navbar">
             <div class="container">
                 <a class="navbar-brand" href="index.html" style="margin: 10px 0;">
-                    <img src="img/loggo.png" style="width: 150px;" alt="logo"/>
+                    <img src="img/loggo.png" style="width: 170px;" alt="logo"/>
                 </a>
                 <button
                         class="navbar-toggler"
@@ -76,14 +74,14 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item ">
-                            <a class="nav-link active" aria-current="page" href="index.html">Главная</a>
+                            <a class="nav-link active" aria-current="page" href="index.html">Меню</a>
                         </li>
                         <li class="nav-item dropdown" id="nav_categories_dropdown_container">
                             <a class="nav-link dropdown-toggle" href="#!"
-                               role="button" id="nav_categories_link">Наш Каталог</a>
+                               role="button" id="nav_categories_link">Наши Каталоги</a>
                             <ul class="dropdown-menu">
-                                <li class=""><a class="dropdown-item" href="category.html">Женская одежда</a></li>
-                                <li class=""><a class="dropdown-item" href="category.html">Мужская одежда</a></li>
+                                <li class=""><a class="dropdown-item" href="./category.html">Женская одежда</a></li>
+                                <li class=""><a class="dropdown-item" href="./category.html">Мужская одежда</a></li>
                                 <li class=""><a class="dropdown-item" href="category.html">Детская одежда</a></li>
                                 <li class=""><a class="dropdown-item" href="#">Мусульманская одежда</a></li>
                                 <li class=""><a class="dropdown-item" href="#">Обувь</a></li>
@@ -94,7 +92,8 @@
                                 <li class=""><a class="dropdown-item" href="#">Носочно- чулочные изделия</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item dropdown"><a href="services.html" class="nav-link">Наши услуги</a></li>
+                        <li class="nav-item dropdown"><a href="services.html" class="nav-link">Услуги</a></li>
+                        <li class="nav-item dropdown"><a href="about.html" class="nav-link">Доставка-Оплата</a></li>
                         <li class="nav-item dropdown"><a href="about.html" class="nav-link">О нас</a></li>
                         <li class="nav-item dropdown"><a href="partner.html" class="nav-link">Партнёрам</a></li>
                         <li class="nav-item pe-4 right_padding">
@@ -108,14 +107,17 @@
 </header>
 <!-- Header End -->
 
-<!-- Slider -->
+<div class="container mt-2 mb-2">
+    <div class="animate_big_ben six_ben">
+        <span>С</span><span>н</span><span>а</span><span>м</span><span>и</span>&nbsp;
+        <span>л</span><span>е</span><span>г</span><span>к</span><span>о</span>&nbsp;<span>и</span>&nbsp;<span>б</span><span>ы</span><span>с</span><span>т</span><span>р</span><span>о</span>
+    </div>
+</div>
 
-<div class="container slider">
-    <div
-            id="carouselExampleControls"
-            class="carousel slide"
-            data-ride="carousel"
-            data-interval="3000">
+
+<!-- Slider -->
+<div class="container slider carousel-fade">
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="2500">
         <div class="carousel-inner">
             <div class="carousel-item active block_bg">
                 <div style="position:absolute; z-index: 5;" class="d-block w-100 h-100"></div>
@@ -161,142 +163,192 @@
         </a>
     </div>
 
-    <!-- Category Cart -->
-    <div class="row mt-4 cat_cat text-center">
-        <div class="col-lg-3 col-md-3 col-4 mb-2 ">
-            <div class="cat_block_bg text_on_photo">
-                <a href="category.html">
-                    <img src="img/man_cat.jpg" alt=""/>
-                </a>
-                <h6>МУЖСКОЕ</h6>
+        <!-- Category Cart -->
+        <div class="row mt-4 cat_cat text-center">
+            <h3 class="text-dark">Наш Каталог</h3>
+            <div class="col-lg-3 col-md-3 col-4 mb-2 ">
+                <div class="cat_block_bg text_on_photo">
+                    <a href="category.html">
+                        <img src="img/man_cat.jpg" alt=""/>
+                    </a>
+                    <h6>МУЖСКОЕ</h6>
+                </div>
             </div>
-        </div>
-        <div class="col-lg-3 col-md-3 col-4 mb-2 ">
-            <div class="cat_block_bg text_on_photo">
-                <a href="category.html">
-                    <img src="img/woman_cat.jpg" alt=""/>
-                </a>
-                <h6>ЖЕНСКОЕ</h6>
+            <div class="col-lg-3 col-md-3 col-4 mb-2 ">
+                <div class="cat_block_bg text_on_photo">
+                    <a href="category.html">
+                        <img src="img/woman_cat.jpg" alt=""/>
+                    </a>
+                    <h6>ЖЕНСКОЕ</h6>
 
+                </div>
             </div>
-        </div>
-        <div class="col-lg-3 col-md-3 col-4 mb-2 ">
-            <div class="cat_block_bg text_on_photo">
-                <a href="category.html">
-                    <img src="img/kids_cat.jpg" alt=""/>
-                </a>
-                <h6>ДЕТСКОЕ</h6>
+            <div class="col-lg-3 col-md-3 col-4 mb-2 ">
+                <div class="cat_block_bg text_on_photo">
+                    <a href="category.html">
+                        <img src="img/kids_cat.jpg" alt=""/>
+                    </a>
+                    <h6>ДЕТСКОЕ</h6>
 
+                </div>
             </div>
-        </div>
-        <div class="col-lg-3 col-md-3 col-4 mb-2 ">
-            <div class="cat_block_bg text_on_photo">
-                <a href="category.html">
-                    <img src="img/shoes_cat.jpg" alt=""/>
-                </a>
-                <h6>Обувь</h6>
+            <div class="col-lg-3 col-md-3 col-4 mb-2 ">
+                <div class="cat_block_bg text_on_photo">
+                    <a href="category.html">
+                        <img src="img/shoes_cat.jpg" alt=""/>
+                    </a>
+                    <h6>Обувь</h6>
 
+                </div>
             </div>
-        </div>
-        <div class="col-lg-3 col-md-3 col-4 mb-2 ">
-            <div class="cat_block_bg text_on_photo">
-                <a href="category.html">
-                    <img src="img/musul_cat.jpg" alt=""/>
-                </a>
-                <h6>Мусульманская одежда</h6>
+            <div class="col-lg-3 col-md-3 col-4 mb-2 ">
+                <div class="cat_block_bg text_on_photo">
+                    <a href="category.html">
+                        <img src="img/musul_cat.jpg" alt=""/>
+                    </a>
+                    <h6>Мусульманская одежда</h6>
 
+                </div>
             </div>
-        </div>
-        <div class="col-lg-3 col-md-3 col-4 mb-2 ">
-            <div class="cat_block_bg text_on_photo">
-                <a href="category.html">
-                    <img src="img/kosmet_cat.jpg" alt=""/>
-                </a>
-                <h6>Косметика</h6>
+            <div class="col-lg-3 col-md-3 col-4 mb-2 ">
+                <div class="cat_block_bg text_on_photo">
+                    <a href="category.html">
+                        <img src="img/kosmet_cat.jpg" alt=""/>
+                    </a>
+                    <h6>Косметика</h6>
 
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-4 mb-2 ">
+                <div class="cat_block_bg text_on_photo">
+                    <a href="category.html">
+                        <img src="img/dom_cat.jpg" alt=""/>
+                    </a>
+                    <h6>Все для дома</h6>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-4 mb-2 ">
+                <div class="cat_block_bg text_on_photo">
+                    <a href="category.html">
+                        <img src="img/aceses_cat.jpg" alt=""/>
+                    </a>
+                    <h6>Аксессуары</h6>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-4 mb-2 ">
+                <div class="cat_block_bg text_on_photo">
+                    <a href="category.html">
+                        <img src="img/tkani_cat.jpg" alt=""/>
+                    </a>
+                    <h6>Ткани</h6>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-4 mb-2 ">
+                <div class="cat_block_bg text_on_photo">
+                    <a href="category.html">
+                        <img src="img/nosok_cat.jpg" alt=""/>
+                    </a>
+                    <h6>Носочно-чулочные изделия</h6>
+                </div>
             </div>
         </div>
-        <div class="col-lg-3 col-md-3 col-4 mb-2 ">
-            <div class="cat_block_bg text_on_photo">
-                <a href="category.html">
-                    <img src="img/dom_cat.jpg" alt=""/>
-                </a>
-                <h6>Все для дома</h6>
-            </div>
-        </div>
-        <div class="col-lg-3 col-md-3 col-4 mb-2 ">
-            <div class="cat_block_bg text_on_photo">
-                <a href="category.html">
-                    <img src="img/aceses_cat.jpg" alt=""/>
-                </a>
-                <h6>Аксессуары</h6>
-            </div>
-        </div>
-        <div class="col-lg-3 col-md-3 col-4 mb-2 ">
-            <div class="cat_block_bg text_on_photo">
-                <a href="category.html">
-                    <img src="img/tkani_cat.jpg" alt=""/>
-                </a>
-                <h6>Ткани</h6>
-            </div>
-        </div>
-        <div class="col-lg-3 col-md-3 col-4 mb-2 ">
-            <div class="cat_block_bg text_on_photo">
-                <a href="category.html">
-                    <img src="img/nosok_cat.jpg" alt=""/>
-                </a>
-                <h6>Носочно-чулочные изделия</h6>
-            </div>
-        </div>
-        <div class="col-lg-3 col-md-3 col-4 mb-2 ">
-            <div class="cat_block_bg text_on_photo">
-                <a href="category.html">
-                    <img src="img/service_cat.jpg" alt=""/>
-                </a>
-                <h6>Наши услуги</h6>
-            </div>
-        </div>
-        <div class="col-lg-3 col-md-3 col-4 mb-2 ">
-            <div class="cat_block_bg text_on_photo">
-                <a href="category.html">
-                    <img src="img/dos-opl.jpg" alt=""/>
-                </a>
-                <h6>Доставка-Оплата</h6>
-            </div>
-        </div>
-
-    </div>
-    <!-- Category Cart -->
+        <!-- Category Cart -->
 </div>
 <!-- Slider End -->
 
-<!-- Card -->
-<section class="new_product mt-5 mb-4">
+<section class="mt-5 mb-5">
     <div class="container">
-        <h3 class="mt-3 mb-3">НОВИНКИ</h3>
-        <div class="container">
-            <!-- Card -->
-            <div class="card font_mosterrat">
-                <div class="card-img" style="background-image: url(img/woman.png);">
-                    <div class="overlay">
-                        <div class="overlay-content">
-                            <a href="#!">Посмотреть новинку</a>
+        <!-- Category Cart -->
+        <div class="row mt-4 cat_cat text-center">
+            <!-- <h3 class="text-dark">Каталог</h3> -->
+            
+            <div class="col-lg-3 col-md-3 col-4 mb-2 ">
+                <div class="cat_block_bg text_on_photo">
+                    <a href="category.html">
+                        <img src="img/service_cat.jpg" alt=""/>
+                    </a>
+                    <h6>Наши услуги</h6>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-4 mb-2 ">
+                <div class="cat_block_bg text_on_photo">
+                    <a href="category.html">
+                        <img src="img/Symposium.jpeg" alt=""/>
+                    </a>
+                    <h6>Как мы работаем</h6>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-4 mb-2 ">
+                <div class="cat_block_bg text_on_photo">
+                    <a href="category.html">
+                        <img src="img/dos-opl.jpg" alt=""/>
+                    </a>
+                    <h6>Доставка-Оплата</h6>
+                </div>
+            </div>
+        </div>
+        <!-- Category Cart -->
+    </div>
+</section>
+
+<!-- Novinki Start -->
+<section class="new_product mt-5 mb-5">
+    <div class="container-xl">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <h3 class="mt-3 mb-3">Хит Продаж</h3>
+                <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+                    <!-- Carousel indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                    </ol>
+                    <!-- Wrapper for carousel items -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <a href="category.html">
+                                <div class="img-box_prod"><img src="img/man_cat.jpg" alt=""></div>
+                                <p class="testimonial">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem
+                                    tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper
+                                    malesuada ante. Idac bibendum scelerisque non non purus. Suspendisse varius nibh non
+                                    aliquet.</p>
+                                <p class="overview"><b>Футболка</b> <br> 320 сом</p>
+                            </a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="category.html">
+                                <div class="img-box_prod"><img src="img/woman_cat.jpg" alt=""></div>
+                                <p class="testimonial">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem
+                                    tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper
+                                    malesuada ante. Idac bibendum scelerisque non non purus. Suspendisse varius nibh non
+                                    aliquet.</p>
+                                <p class="overview"><b>Джемпер</b> <br> 320 сом</p>
+                            </a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="category.html">
+                                <div class="img-box_prod"><img src="img/kids_cat.jpg" alt=""></div>
+                                <p class="testimonial">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem
+                                    tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper
+                                    malesuada ante. Idac bibendum scelerisque non non purus. Suspendisse varius nibh non
+                                    aliquet.</p>
+                                <p class="overview"><b>Панама</b> <br> 320 сом</p>
+                            </a>
                         </div>
                     </div>
-                </div>
-                <div class="card-content">
-                    <a href="#!">
-                        <h2>Ожерелье</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur, lorem ipsum dolor</p>
-                        <p class="price">120 сом</p>
+                    <!-- Carousel controls -->
+                    <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                    <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+                        <i class="fa fa-angle-right"></i>
                     </a>
                 </div>
             </div>
-            <!-- Card -->
         </div>
     </div>
 </section>
-<!-- Card -->
 
 <!-- ------Block Icons Start------- -->
 <section class="bg-pink-light pt-8 pb-8">
@@ -333,7 +385,7 @@
         <div class="row">
             <div class="col-lg-8 mx-auto">
                 <h3 class="mt-3 mb-3">Отзывы клиентов</h3>
-                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
                     <!-- Carousel indicators -->
                     <ol class="carousel-indicators">
                         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -348,23 +400,23 @@
                                 tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper
                                 malesuada ante. Idac bibendum scelerisque non non purus. Suspendisse varius nibh non
                                 aliquet.</p>
-                            <p class="overview"><b>Paula Wilson</b>, Media Analyst</p>
+                            <p class="overview"><b>Алмаз Алмазович</b>, Торговец А2</p>
                         </div>
                         <div class="carousel-item">
-                            <div class="img-box"><img src="img/woman.png" alt=""></div>
+                            <div class="img-box"><img src="img/man_cat.jpg" alt=""></div>
                             <p class="testimonial">Vestibulum quis quam ut magna consequat faucibus. Pellentesque eget
                                 nisi a mi suscipit tincidunt. Utmtc tempus dictum risus. Pellentesque viverra sagittis
                                 quam at mattis. Suspendisse potenti. Aliquam sit amet gravida nibh, facilisis gravida
                                 odio.</p>
-                            <p class="overview"><b>Antonio Moreno</b>, Web Developer</p>
+                            <p class="overview"><b>Бакыт Бакытович</b>, Руководитель А1</p>
                         </div>
                         <div class="carousel-item">
-                            <div class="img-box"><img src="img/man.png" alt=""></div>
+                            <div class="img-box"><img src="img/woman.png" alt=""></div>
                             <p class="testimonial">Phasellus vitae suscipit justo. Mauris pharetra feugiat ante id
                                 lacinia. Etiam faucibus mauris id tempor egestas. Duis luctus turpis at accumsan
                                 tincidunt. Phasellus risus risus, volutpat vel tellus ac, tincidunt fringilla massa.
                                 Etiam hendrerit dolor eget rutrum.</p>
-                            <p class="overview"><b>Michael Holz</b>, Seo Analyst</p>
+                            <p class="overview"><b>Иван Иванович</b>, Бизнесмен</p>
                         </div>
                     </div>
                     <!-- Carousel controls -->
