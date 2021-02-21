@@ -90,6 +90,6 @@ jQuery(function ($) {
   $(window).on("load", function () {
     ($preloader = $(".areaForLoader")), ($loader = $preloader.find(".loader"));
     $loader.fadeOut();
-    $preloader.delay(350).fadeOut("slow");
+    $preloader.delay(200).fadeOut("slow");
   });
 });
