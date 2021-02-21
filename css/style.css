@@ -302,6 +302,12 @@ h3 {
   display: inline-block;
   overflow: hidden;
 }
+.text_on_photo_ser {
+  position: relative;
+  width: 100%;
+  display: inline-block;
+  overflow: hidden;
+}
 
 .text_on_photo img {
   transition: 1s;
@@ -309,25 +315,49 @@ h3 {
   object-fit: cover;
   height: 260px;
 }
+.text_on_photo_ser img {
+  transition: 1s;
+  display: block;
+  object-fit: cover;
+  height: 150px;
+}
 
 .text_on_photo img:hover {
+  transform: scale(1.2);
+}
+.text_on_photo_ser img:hover {
   transform: scale(1.2);
 }
 
 .text_on_photo h6 {
  /* font-family: "Montserrat";*/
-  font-style: normal;
-  font-weight: bold;
-  line-height: 20px;
+  font-weight: normal;
+  line-height: 13px;
   letter-spacing: 0.1em;
-  color: #fff;
+  color: #000;
   position: absolute;
   bottom: 5%;
   transform: translateX(-50%);
   left: 50%;
   border-radius: 5px;
-  /*background: #fff;*/
-  padding: 3px
+  background: #fff;
+  text-transform: lowercase;
+  padding: 5px
+}
+.text_on_photo_ser h6 {
+ /* font-family: "Montserrat";*/
+  font-weight: normal;
+  line-height: 13px;
+  letter-spacing: 0.1em;
+  color: #000;
+  position: absolute;
+  bottom: 5%;
+  transform: translateX(-50%);
+  left: 50%;
+  border-radius: 5px;
+  background: #fff;
+  text-transform: lowercase;
+  padding: 5px
 }
 
 @media screen and (max-width: 540px) {
@@ -335,7 +365,14 @@ h3 {
       object-fit: cover;
       height: 120px;
     }
+    .text_on_photo_ser img {
+      object-fit: cover;
+      height: 100px;
+    }
     .text_on_photo h6 {
+        font-size: 0.6rem
+    }
+    .text_on_photo_ser h6 {
         font-size: 0.6rem
     }
     .cat_cat>.col-4{
