@@ -86,6 +86,10 @@ jQuery(function ($) {
       $("#nav_categories_dropdown_container").on("click", function () {});
     }
   });
+  // Preloader
+  $(window).on("load", function () {
+    ($preloader = $(".areaForLoader")), ($loader = $preloader.find(".loader"));
+    $loader.fadeOut();
+    $preloader.delay(350).fadeOut("slow");
+  });
 });
-
-// rvrtbtrbtrbrtb
